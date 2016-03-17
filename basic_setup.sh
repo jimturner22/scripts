@@ -22,7 +22,7 @@ cd ~
 git clone https://github.com/jimturner22/.dotfiles.git
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cd ~/.dotfiles
-sudo ./link.sh
+./link.sh
 cd ~
 
 
