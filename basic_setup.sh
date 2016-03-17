@@ -9,7 +9,7 @@ sudo apt-get install openssh-server
 curl -sL https://deb.nodesource.com/setup_0.12.x | sudo -E bash -
 wait
 sudo apt-get install -y nodejs
-sudo aot-get install -y node-red
+sudo apt-get install -y node-red
 
 # sudo apt-get install -y python-software-properties
 
@@ -22,7 +22,7 @@ cd ~
 git clone https://github.com/jimturner22/.dotfiles.git
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cd ~/.dotfiles
-./link.sh
+# ./link.sh
 cd ~
 
 
