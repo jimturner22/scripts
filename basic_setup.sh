@@ -6,10 +6,11 @@ sudo apt-get install openssh-server
 
 
 # curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
-curl -sL https://deb.nodesource.com/setup_0.12.x | sudo -E bash -
+curl -sL https://raw.githubusercontent.com/nodesource/distributions/master/deb/setup_0.12 | sudo -E bash -
 wait
 sudo apt-get install -y nodejs
-sudo apt-get install -y node-red
+
+sudo npm install -g node-red
 
 # sudo apt-get install -y python-software-properties
 
